@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="SmartMakerSemSuporte" version="2020-05-16 01:13:42" app="S3D-Software 4.0.0">
+<profile name="SmartMakerS3DProfile" version="2020-05-18 03:51:03" app="S3D-Software 3.1.1">
   <baseProfile>CoreAB-2 ABS</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -29,6 +29,7 @@
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
   <startPointOriginY>0</startPointOriginY>
+  <startPointOriginZ>0</startPointOriginZ>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
   <firstLayerHeightPercentage>134</firstLayerHeightPercentage>
@@ -36,12 +37,11 @@
   <firstLayerUnderspeed>0.6</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
-  <raftTopLayers>3</raftTopLayers>
-  <raftBaseLayers>0</raftBaseLayers>
+  <raftLayers>3</raftLayers>
   <raftOffset>5</raftOffset>
   <raftSeparationDistance>0.45</raftSeparationDistance>
-  <raftTopInfill>100</raftTopInfill>
-  <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
+  <raftInfill>85</raftInfill>
+  <disableRaftBaseLayers>0</disableRaftBaseLayers>
   <useSkirt>0</useSkirt>
   <skirtExtruder>0</skirtExtruder>
   <skirtLayers>1</skirtLayers>
@@ -62,20 +62,17 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Rectilinear</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>50</infillPercentage>
+  <infillPercentage>15</infillPercentage>
   <outlineOverlapPercentage>21</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>102</infillExtrusionWidthPercentage>
   <minInfillLength>1</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
-  <internalInfillAngles>45,-45,90,0</internalInfillAngles>
-  <overlapInternalInfillAngles>0</overlapInternalInfillAngles>
-  <externalInfillAngles>45,-45,90,0</externalInfillAngles>
+  <infillAngles>0</infillAngles>
+  <overlapInfillAngles>0</overlapInfillAngles>
   <generateSupport>0</generateSupport>
   <supportExtruder>0</supportExtruder>
   <supportInfillPercentage>15</supportInfillPercentage>
   <supportExtraInflation>1.5</supportExtraInflation>
-  <supportBaseLayers>2</supportBaseLayers>
-  <denseSupportExtruder>0</denseSupportExtruder>
   <denseSupportLayers>2</denseSupportLayers>
   <denseSupportInfillPercentage>99</denseSupportInfillPercentage>
   <supportLayerInterval>1</supportLayerInterval>
@@ -168,12 +165,9 @@
   <bridgingExtraInflation>2</bridgingExtraInflation>
   <bridgingExtrusionMultiplier>0.9</bridgingExtrusionMultiplier>
   <bridgingSpeedMultiplier>1.2</bridgingSpeedMultiplier>
-  <useFixedBridgingAngle>1</useFixedBridgingAngle>
-  <fixedBridgingAngle>0</fixedBridgingAngle>
-  <applyBridgingToPerimeters>1</applyBridgingToPerimeters>
-  <filamentDiameters>1.72|1.74|1.74|1.74|1.74|1.74</filamentDiameters>
-  <filamentPricesPerKg>120|120|120|120|120|120</filamentPricesPerKg>
-  <filamentDensities>1.08|1.08|1.08|1.08|1.08|1.08</filamentDensities>
+  <filamentDiameter>1.75</filamentDiameter>
+  <filamentPricePerKg>46</filamentPricePerKg>
+  <filamentDensity>1.25</filamentDensity>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
   <useMaxPrintHeight>0</useMaxPrintHeight>
@@ -193,12 +187,7 @@
   <toolChangeRetractionDistance>5</toolChangeRetractionDistance>
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
   <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
-  <externalThinWallType>1</externalThinWallType>
-  <internalThinWallType>1</internalThinWallType>
-  <thinWallAllowedOverlapPercentage>99</thinWallAllowedOverlapPercentage>
-  <singleExtrusionMinLength>1</singleExtrusionMinLength>
-  <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
-  <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
-  <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
+  <allowThinWallGapFill>1</allowThinWallGapFill>
+  <thinWallAllowedOverlapPercentage>50</thinWallAllowedOverlapPercentage>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
 </profile>
