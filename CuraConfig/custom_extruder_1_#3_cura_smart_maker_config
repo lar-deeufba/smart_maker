@@ -1,0 +1,48 @@
+[general]
+version = 4
+name = CURA SMART MAKER CONFIG
+definition = fdmprinter
+
+[metadata]
+position = 0
+setting_version = 5
+quality_type = normal
+type = quality_changes
+
+[values]
+acceleration_print = 1200
+bottom_layers = 8
+brim_line_count = 7
+brim_outside_only = True
+cool_fan_full_layer = 3
+cool_fan_speed = 50
+fill_outline_gaps = True
+infill_overlap_mm = 0.02
+infill_pattern = lines
+initial_layer_line_width_factor = 120
+ironing_enabled = True
+ironing_line_spacing = 0.3
+ironing_only_highest_layer = True
+line_width = 0.4
+material_final_print_temperature = 240
+material_initial_print_temperature = 245
+material_print_temperature = 230
+max_feedrate_z_override = 40
+optimize_wall_printing_order = True
+retract_at_layer_change = True
+retraction_amount = 3.7
+retraction_hop = 0.5
+retraction_hop_enabled = True
+skin_overlap_mm = 0.02
+skirt_brim_line_width = 0.48
+speed_equalize_flow_enabled = True
+speed_infill = 40
+speed_ironing = 35
+speed_layer_0 = 30
+speed_print = 50
+speed_topbottom = 30
+speed_wall_0 = 30
+top_layers = 8
+wall_line_count = 3
+wall_thickness = 0.48
+

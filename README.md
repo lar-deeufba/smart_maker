@@ -51,9 +51,11 @@ ou
 
 ``` $ sudo chmod 666 /dev/ttyACM0 ```
 
-<!-- Inserir imagem -->
+Após isso é só escolher o baudrate ``` 115200 ``` e clicar em ``` connect ```.
 
-Após isso é só escolher o baudrate e clicar em connect.
+<!-- Colocar imagem aqui -->
+
+
 
 ### 
 
@@ -65,7 +67,9 @@ Após isso é só escolher o baudrate e clicar em connect.
 - Raft =
 
 ### <a name="example"></a> Exemplo
-Na pasta ``` Example ``` há um arquivo  ``` .STL ```, que é um cilindro com diâmetro de 10mm e 5mm de altura. Iremos gerar o ``` .gcode ``` a partir dele utilizando o Simplify3D.
-Iremos usar o cartão de memória para transferir o ``` .gcode ``` para a impressora. 
+Na pasta ``` Example ``` há um arquivo  ``` .STL ```, que é um cilindro com diâmetro de 10mm e 5mm de altura. Iremos gerar o ``` .gcode ``` a partir dele utilizando o Simplify3D. Neste caso iremos realizar a impressão a partir do computador. Caso prefira, há a versão deste tutorial em forma de video, clique [aqui]() para vê-lo.
+
+Caso queira imprimir utilizando o cartão de memória, basta lembrar que o mesmo deve estar formatado com o cluster ``` FAT32 ```.
+
 
 <!-- Colocar imagens e fornecer arquivos exemplo -->
